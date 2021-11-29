@@ -30,10 +30,9 @@ const BannerModule = ({ children, title, subTitle, price, enquire }) => {
             <StaticImage
               src="../../images/logos/halluce-logo.svg"
               alt="Perk Image"
-              layout="constrained"
               placeholder="tracedSVG"
             />
-            {subTitle && <h2>{subTitle}</h2>}
+            {subTitle && <h2 style={{marginTop: 20}}>{subTitle}}</h2>}
             {price && (
               <h2 className="price">
                 £{price}
