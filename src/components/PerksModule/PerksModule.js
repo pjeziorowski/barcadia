@@ -16,37 +16,24 @@ const PerksModule = () => {
       <div className="perks__image--overlay"></div>
       <div className="container">
         <Perk
-          title="Built For Speed"
-          content="By using GatsbyJS, the Barcadia site is super-fast out of the box"
+          title="Commodifying Virality"
+          content="We allow you to make the popularity of your video a tradable asset"
         >
-          <StaticImage
-            src="../../images/logos/gatsby-logo.svg"
-            alt="Perk Image"
-            layout="constrained"
-            placeholder="tracedSVG"
-          />
         </Perk>
         <Perk
-          title="Built For Content"
-          content="Contentful helps you edit your application with ease as your business expands"
+          title="Involving Viewers"
+          content="Allowing viewers to make money by investing their fave videos"
         >
-          <StaticImage
-            src="../../images/logos/contentful-logo.svg"
-            alt="Perk Image"
-            layout="constrained"
-            placeholder="tracedSVG"
-          />
         </Perk>
         <Perk
-          title="Built For Security"
-          content="A static site reduces your chance of a security exposure through injection"
+          title="Gamification"
+          content="Have fun betting on a videos virality "
         >
-          <StaticImage
-            src="../../images/logos/netlify-logo.svg"
-            alt="Perk Image"
-            layout="constrained"
-            placeholder="tracedSVG"
-          />
+        </Perk>
+        <Perk
+          title="Gamification"
+          content="Have fun betting on a videos virality "
+        >
         </Perk>
       </div>
     </PerksModuleStyles>

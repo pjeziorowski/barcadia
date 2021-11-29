@@ -1,16 +1,14 @@
-import React, { useContext } from "react"
-import { Link } from "gatsby"
-import MenuContext from "../MenuContext"
-import { NavModuleStyles } from "./NavModuleStyles"
 import { motion } from "framer-motion"
-import { menuItems } from "./NavConstants"
-import {
-  barOneVariants,
-  barTwoVariants,
-  barThreeVariants,
-  menuList,
-} from "./NavAnim"
+import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
+import React, { useContext } from "react"
 import { UseSiteMetadata } from "../../hooks/useSiteMetadata"
+import MenuContext from "../MenuContext"
+import {
+  barOneVariants, barThreeVariants, barTwoVariants, menuList
+} from "./NavAnim"
+import { menuItems } from "./NavConstants"
+import { NavModuleStyles } from "./NavModuleStyles"
 
 const NavModule = () => {
   const [isOpen, setNav] = useContext(MenuContext)
@@ -49,8 +47,12 @@ const NavModule = () => {
           {title && (
             <div className="logo">
               <Link to="/">
-                {title}
-                <span>.</span>
+                <StaticImage
+                  src="../../images/logos/halluce-logo.svg"
+                  alt="Perk Image"
+                  layout="constrained"
+                  placeholder="tracedSVG"
+                />
               </Link>
             </div>
           )}

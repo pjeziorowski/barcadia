@@ -12,12 +12,16 @@ export const menuItems = [
     text: "home",
   },
   {
-    path: "/products",
-    text: "products",
+    path: "https://beta.halluce.com",
+    text: "marketplace",
   },
   {
     path: "/blog",
     text: "blog",
+  },
+  {
+    path: "/blog",
+    text: "how it works",
   },
   {
     path: "/contact",

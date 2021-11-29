@@ -1,22 +1,18 @@
+import { Link } from "gatsby"
 import * as React from "react"
 import Button from "../Button/Button"
 import { BasicTextModuleStyles } from "./BasicTextModuleStyles"
-import { Link } from "gatsby"
 
 const BasicTextModule = () => {
   return (
     <BasicTextModuleStyles>
       <div className="container">
         <h2>
-          A super-fast theme that is easy to get started, using the power of
-          GatsbyJS
+          Commodifying the virality of social media videos through NFTs
         </h2>
         <p style={{ marginBottom: "60px" }}>
-          Using modern CSS properties such as grid, this theme is optmised for
-          speed and mobile devices. Giving users an excellent experience on any
-          device. Future-proofing your product.
+          Other NFT marketplaces base the value of NFTs on how rare the NFT is, at Halluce we base the value of video NFTs on how viral and popular a video is on social media.
         </p>
-        <Button text="View Products" as={Link} to="/products" />
       </div>
     </BasicTextModuleStyles>
   )

@@ -9,7 +9,7 @@ const blog = () => {
     <>
       <Seo title="Blog" />
       <Layout>
-        <SimpleBanner title="Trade news">
+        <SimpleBanner title="Halluce news">
           <StaticImage
             className="banner__image"
             src="../images/iphone-camera.jpg"
