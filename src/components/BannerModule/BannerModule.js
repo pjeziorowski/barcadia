@@ -21,7 +21,6 @@ const BannerModule = ({ children, title, subTitle, price, enquire }) => {
             imgClassName="banner__image--content"
             src="../../images/macbook-color.jpg"
             alt="Banner Image"
-            layout="fullWidth"
             placeholder="blurred"
           />
         )}

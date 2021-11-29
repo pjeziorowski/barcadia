@@ -14,7 +14,7 @@ const Index = () => {
       <Layout>
         <BannerModule
           title="Halluce"
-          subTitle="Create, collect and sell NETs of your favorite social media videos"
+          subTitle="Create, collect and sell NFTs of your favorite social media videos"
         />
         <BasicTextModule />
         <PerksModule>
